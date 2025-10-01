@@ -73,11 +73,9 @@ Run it locally:
 streamlit run image_classifier.py
 
 📂 Project Structure
-├── notebooks           # Model training notebooks
-├── image_classifier.py  # Streamlit app
-├── requirements.txt     # Dependencies
-└── README.md            # Project documentation
-
+├── notebooks           
+├── image_classifier.py  
+└── README.md            
 📸 Example Outputs
 
 Happy 🙂
