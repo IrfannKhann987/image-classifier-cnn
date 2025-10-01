@@ -27,12 +27,8 @@ if uploaded_file is not None:
 
     # Make prediction
     prediction = model.predict(img_array)[0][0]  # sigmoid gives a single value
-    if prediction > 0.5:
-        predicted_class = "happy"
-        confidence = prediction * 100
+    if prediction>0.5:
+        st.write("### 😢 Prediction: **sad**")
     else:
-        predicted_class = "sad"
-        confidence = (1 - prediction) * 100
+        st.write("### 😊 Prediction: **happy**")
 
-    # Show result
-    st.write(f"### 🎯 Prediction: {predicted_class} ({confidence:.2f}% confidence)")
