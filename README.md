@@ -94,3 +94,4 @@ Deploy app to Streamlit Cloud or Hugging Face Spaces for public use.
 
 Developed by Irfan Khan.
 A huge thanks to NicholasRenotte
+And Chatgpt for helping me with the front end
